@@ -1,0 +1,33 @@
+*{
+    color: white;
+}
+
+.header{
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 3rem;
+}
+
+article{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.loader{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 3rem;
+}

@@ -1,0 +1,35 @@
+.ttodo{
+    color: black;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 0 1rem;
+}
+
+.ttodo h4{
+    color: black;
+}
+
+.ttodo p{
+    color: black;
+}
+
+.ttodo input{
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}
+.ttodo .action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.action .btn{
+    height: 2.2rem;
+    padding: 0 2rem;
+}

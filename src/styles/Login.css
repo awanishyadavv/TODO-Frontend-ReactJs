@@ -1,0 +1,41 @@
+.container{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+
+    padding: 3rem 6rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+input{
+    width: 25rem;
+    color: black;
+    height: 3rem;
+    border:  1px solid rgb(206, 204, 204);
+    padding: 0 1rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn{
+    padding: 0 5rem;
+    height: 3rem;
+    background-color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+h3{
+    color: black;
+}
+
+.login-signup{
+    color: black;
+    text-decoration: none;
+}
